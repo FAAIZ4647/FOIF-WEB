@@ -1,0 +1,1928 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "email": "admin@foifind.com",
+      "passwordHash": "e998b158484b4fba4b7bdd32efb27998:5c03cdee57fa41b7b1e0854ed8d4b5eaa8692205e73d8f6333f01f8ebf9dd1f283cfe75311de54198750ab185d14efd05b1d432c44a2026708675ed9cec14439",
+      "name": "FOIF Central Procurement Desk",
+      "company": "Fortress of Industrial Fasteners",
+      "phone": "+91 72009 79731",
+      "role": "ADMIN",
+      "createdAt": 1792261932679
+    },
+    {
+      "id": "usr-customer-1",
+      "email": "procurement@larsentoubro.com",
+      "passwordHash": "9e6c5a77c2877f5376bc6f616fa16185:9e387bc52b803ba87fd6b1dfa88a9884dd3a245814254ab020e23912594f21e12e028cdc010fb61fdfd92c0f77573fcbd369c59c3cf7442c806853d0c8d2d6e8",
+      "name": "Rajesh Sharma",
+      "company": "Larsen & Toubro Heavy Infrastructure",
+      "phone": "+91 98401 23456",
+      "location": "Chennai Port Project Site, Tamil Nadu",
+      "role": "CUSTOMER",
+      "createdAt": 1792261932679
+    }
+  ],
+  "products": [
+    {
+      "id": "foif-din933-hex-bolt",
+      "sku": "FOIF-B-DIN933",
+      "name": "Hex Head Structural Bolt (Full Thread)",
+      "category": "bolts",
+      "categoryName": "Bolts & Socket Screws",
+      "categoryCode": "CAT-01",
+      "standards": [
+        "DIN 933",
+        "ISO 4017"
+      ],
+      "materials": [
+        "Grade 8.8",
+        "Grade 10.9",
+        "Grade 12.9",
+        "SS304",
+        "SS316"
+      ],
+      "diameters": [
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20",
+        "M24",
+        "M30",
+        "M36"
+      ],
+      "lengths": [
+        "16mm",
+        "25mm",
+        "35mm",
+        "50mm",
+        "65mm",
+        "80mm",
+        "100mm",
+        "150mm"
+      ],
+      "threadPitch": "Metric Standard (Pitch 1.0mm - 4.0mm)",
+      "tolerance": "ISO 965-1 Class 6g",
+      "tensileStrength": "800 - 1220 MPa",
+      "hardness": "32 - 44 HRC",
+      "finishes": [
+        "Plain Black Oxide",
+        "Electro-Zinc Plated",
+        "Hot Dip Galvanized"
+      ],
+      "certifications": [
+        "EN 10204 3.1 MTR",
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 500,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Available on 48h Dispatch for Standard Lots",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHddiAN4v4IL7V_H0kS18hGicmBgGMJY7Kdjwe3ngBvB0rbPj2r7iQjU1FnHsXSgDHpJFNz7iO1y786pG0kNL0LqYKpU0ZPLby8SsxXpI_0tZW273Qhbiks8OiEgVmnzm3kJg69AieJGvz3aFdFC33QJ1xcYvfEADz5HtChD4XbjEA7VaVJJWs1dh8vV2Q360gEr89YREk1f6Y7auP4Q1C8qk4Y6ryeG2Rnx2YHQYundk4QRwX0j8gw",
+      "description": "High-tensile structural hex bolts precision cold-forged for heavy civil, steel framing, and industrial mechanical installations. Full pitch thread cut to ISO standards with 100% heat traceability.",
+      "features": [
+        "Precision forged hexagonal drive head with clean chamfered edges",
+        "Grade 8.8, 10.9, and 12.9 HT alloy steel or marine SS316",
+        "100% optical comparator thread pitch inspection",
+        "Complete EN 10204 3.1 Mill Test Certificate supplied with every shipment"
+      ]
+    },
+    {
+      "id": "foif-din931-hex-bolt-partial",
+      "sku": "FOIF-B-DIN931",
+      "name": "Hex Head Structural Bolt (Partial Thread)",
+      "category": "bolts",
+      "categoryName": "Bolts & Socket Screws",
+      "categoryCode": "CAT-01",
+      "standards": [
+        "DIN 931",
+        "ISO 4014"
+      ],
+      "materials": [
+        "Grade 8.8",
+        "Grade 10.9",
+        "Grade 12.9"
+      ],
+      "diameters": [
+        "M10",
+        "M12",
+        "M16",
+        "M20",
+        "M24",
+        "M30",
+        "M36"
+      ],
+      "lengths": [
+        "50mm",
+        "70mm",
+        "90mm",
+        "120mm",
+        "160mm",
+        "200mm",
+        "260mm"
+      ],
+      "threadPitch": "Metric Standard (Class 6g)",
+      "tolerance": "ISO 965-1 Class 6g",
+      "tensileStrength": "800 - 1040 MPa",
+      "hardness": "32 - 39 HRC",
+      "finishes": [
+        "Hot Dip Galvanized (HDG)",
+        "Plain Black Oxide",
+        "Zinc Flake"
+      ],
+      "certifications": [
+        "EN 10204 3.1 MTR",
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 500,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Available on 48h Dispatch",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHddiAN4v4IL7V_H0kS18hGicmBgGMJY7Kdjwe3ngBvB0rbPj2r7iQjU1FnHsXSgDHpJFNz7iO1y786pG0kNL0LqYKpU0ZPLby8SsxXpI_0tZW273Qhbiks8OiEgVmnzm3kJg69AieJGvz3aFdFC33QJ1xcYvfEADz5HtChD4XbjEA7VaVJJWs1dh8vV2Q360gEr89YREk1f6Y7auP4Q1C8qk4Y6ryeG2Rnx2YHQYundk4QRwX0j8gw",
+      "description": "Partial thread structural bolt engineered with an unthreaded solid shank in the shear plane to provide maximum joint shear capacity under dynamic civil infrastructure loads.",
+      "features": [
+        "Unthreaded solid grip body provides superior shear resistance across mating steel plates",
+        "Conforms strictly to DIN 931 / ISO 4014 geometric tolerances",
+        "Available in hot dip galvanizing for 25+ year bridge & tower deployment"
+      ]
+    },
+    {
+      "id": "foif-din912-socket-screw",
+      "sku": "FOIF-B-DIN912",
+      "name": "Socket Head Cap Screw (Allen Bolt)",
+      "category": "bolts",
+      "categoryName": "Bolts & Socket Screws",
+      "categoryCode": "CAT-01",
+      "standards": [
+        "DIN 912",
+        "ISO 4762"
+      ],
+      "materials": [
+        "Grade 12.9 Alloy Steel",
+        "SS304",
+        "SS316"
+      ],
+      "diameters": [
+        "M4",
+        "M5",
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20"
+      ],
+      "lengths": [
+        "10mm",
+        "16mm",
+        "25mm",
+        "40mm",
+        "50mm",
+        "70mm",
+        "90mm"
+      ],
+      "threadPitch": "Metric Standard",
+      "tolerance": "ISO 965 Class 6g",
+      "tensileStrength": "1220 MPa (Grade 12.9)",
+      "hardness": "39 - 44 HRC",
+      "finishes": [
+        "Black Thermal Oxide",
+        "Bright Zinc",
+        "Passivated Stainless"
+      ],
+      "certifications": [
+        "EN 10204 3.1 MTR"
+      ],
+      "minOrderQuantity": 1000,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Dispatch within 24-48h",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHddiAN4v4IL7V_H0kS18hGicmBgGMJY7Kdjwe3ngBvB0rbPj2r7iQjU1FnHsXSgDHpJFNz7iO1y786pG0kNL0LqYKpU0ZPLby8SsxXpI_0tZW273Qhbiks8OiEgVmnzm3kJg69AieJGvz3aFdFC33QJ1xcYvfEADz5HtChD4XbjEA7VaVJJWs1dh8vV2Q360gEr89YREk1f6Y7auP4Q1C8qk4Y6ryeG2Rnx2YHQYundk4QRwX0j8gw",
+      "description": "Cylindrical head fasteners with internal hexagonal socket recess for high-torque clamping in compact mechanical assemblies, die tooling, and automated machinery.",
+      "features": [
+        "Precision knurled head cylinder for slip-free manual alignment",
+        "Deep hexagonal Allen socket prevents cam-out under maximum torque loads",
+        "Premium Grade 12.9 high tensile alloy steel for maximum tensile endurance"
+      ]
+    },
+    {
+      "id": "foif-din6921-flange-bolt",
+      "sku": "FOIF-B-DIN6921",
+      "name": "Hex Flange Structural Bolt",
+      "category": "bolts",
+      "categoryName": "Bolts & Socket Screws",
+      "categoryCode": "CAT-01",
+      "standards": [
+        "DIN 6921",
+        "ISO 1665"
+      ],
+      "materials": [
+        "Grade 8.8",
+        "Grade 10.9",
+        "SS304"
+      ],
+      "diameters": [
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16"
+      ],
+      "lengths": [
+        "20mm",
+        "30mm",
+        "45mm",
+        "60mm",
+        "80mm"
+      ],
+      "threadPitch": "Metric Standard / Metric Fine",
+      "tolerance": "ISO 965 Class 6g",
+      "tensileStrength": "800 - 1040 MPa",
+      "hardness": "32 - 39 HRC",
+      "finishes": [
+        "Yellow Zinc Dichromate",
+        "Geomet 500",
+        "Zinc Nickel"
+      ],
+      "certifications": [
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 1000,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Standard Dispatch",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHddiAN4v4IL7V_H0kS18hGicmBgGMJY7Kdjwe3ngBvB0rbPj2r7iQjU1FnHsXSgDHpJFNz7iO1y786pG0kNL0LqYKpU0ZPLby8SsxXpI_0tZW273Qhbiks8OiEgVmnzm3kJg69AieJGvz3aFdFC33QJ1xcYvfEADz5HtChD4XbjEA7VaVJJWs1dh8vV2Q360gEr89YREk1f6Y7auP4Q1C8qk4Y6ryeG2Rnx2YHQYundk4QRwX0j8gw",
+      "description": "One-piece hex head bolt with integrated wide circular flange that acts like an integrated washer, distributing clamping pressure evenly over structural joints.",
+      "features": [
+        "Eliminates requirement for separate flat washers",
+        "Serrated bearing face option prevents dynamic operational loosening",
+        "Commonly deployed in automotive powertrains and vibrating machinery frames"
+      ]
+    },
+    {
+      "id": "foif-sd-hex-ruspert",
+      "sku": "FOIF-SD-HEX-RUS",
+      "name": "Hex Washer Head Self-Drilling Screw with EPDM",
+      "category": "self-drilling-screws",
+      "categoryName": "Self-Drilling Screws",
+      "categoryCode": "CAT-02",
+      "standards": [
+        "DIN 7504K",
+        "AS 3566 Class 4"
+      ],
+      "materials": [
+        "C1022 Hardened Carbon Steel",
+        "Bi-Metal Stainless"
+      ],
+      "diameters": [
+        "#10 (4.8mm)",
+        "#12 (5.5mm)",
+        "#14 (6.3mm)"
+      ],
+      "lengths": [
+        "25mm",
+        "38mm",
+        "50mm",
+        "68mm",
+        "75mm",
+        "100mm"
+      ],
+      "threadPitch": "Fine / Coarse TPI for Heavy Steel Purlins",
+      "tolerance": "AS 3566 Standard",
+      "tensileStrength": "Torsional Strength > 15 Nm",
+      "hardness": "Case Hardened 550+ HV",
+      "finishes": [
+        "Class 4 Ruspert (1500h SST)",
+        "Zinc Plated"
+      ],
+      "certifications": [
+        "AS 3566 Class 4 Certified",
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 5000,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Bulk Master Cartons",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbSyUotfUimP58OK6ldl2qb6-vEocPNl0SMCkVFGtYIW0RGJ7UPeUadRF75N9kA_WM3bmQBB7KItf5h7wltaH_E_dnYmvO18wKKsetaILEw1AMIQ4GNKgpg8DmkdLZ87GjABcdUjvBhRoqy5_iPt5hDI9krE_tLP6B6CRPPnFZW3rSZuy7GWvUOO1ua7jr24JmTq3Iujm5DxBxq0Y9qoffitqC8LSav4y258jcbYwHAcnOHt45EE4rew",
+      "description": "Heavy-duty self-drilling screw featuring high-grade Class 4 Ruspert multi-layer barrier coating and weather-grade vulcanized EPDM washer for metal roofing.",
+      "features": [
+        "Drills through up to 12.5mm cold-rolled structural steel without pre-drilling",
+        "High integrity vulcanized EPDM washer provides 100% watertight seal",
+        "1,500+ hour neutral salt spray corrosion resistance certified"
+      ]
+    },
+    {
+      "id": "foif-sd-bim-csk",
+      "sku": "FOIF-SD-BIM-CSK",
+      "name": "Bi-Metal Stainless Countersunk Self-Drilling Screw",
+      "category": "self-drilling-screws",
+      "categoryName": "Self-Drilling Screws",
+      "categoryCode": "CAT-02",
+      "standards": [
+        "DIN 7504P",
+        "ISO 15482"
+      ],
+      "materials": [
+        "Bi-Metal (SS304 Body + Hardened Alloy Steel Drill Point)"
+      ],
+      "diameters": [
+        "#8 (4.2mm)",
+        "#10 (4.8mm)",
+        "#12 (5.5mm)"
+      ],
+      "lengths": [
+        "25mm",
+        "35mm",
+        "50mm",
+        "65mm"
+      ],
+      "threadPitch": "Metric Self-Tapping Thread",
+      "tolerance": "ISO Standard",
+      "tensileStrength": "Shear Strength > 8.5 kN",
+      "hardness": "Head SS304 / Tip 56 HRC",
+      "finishes": [
+        "Electropolished",
+        "Passivated Stainless"
+      ],
+      "certifications": [
+        "EN 10204 3.1 Traceable"
+      ],
+      "minOrderQuantity": 2500,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Available on 48h Dispatch",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbSyUotfUimP58OK6ldl2qb6-vEocPNl0SMCkVFGtYIW0RGJ7UPeUadRF75N9kA_WM3bmQBB7KItf5h7wltaH_E_dnYmvO18wKKsetaILEw1AMIQ4GNKgpg8DmkdLZ87GjABcdUjvBhRoqy5_iPt5hDI9krE_tLP6B6CRPPnFZW3rSZuy7GWvUOO1ua7jr24JmTq3Iujm5DxBxq0Y9qoffitqC8LSav4y258jcbYwHAcnOHt45EE4rew",
+      "description": "Friction-welded bi-metal fastener combining the superior atmospheric corrosion resistance of SS304 austenitic stainless with a heat-treated alloy drill tip.",
+      "features": [
+        "Zero risk of galvanic or atmospheric corrosion in coastal architecture",
+        "Flush countersunk head leaves clean aesthetic exterior facade finish",
+        "High-speed penetration into structural aluminium and mild steel beams"
+      ]
+    },
+    {
+      "id": "foif-sd-wafer-truss",
+      "sku": "FOIF-SD-WAFER",
+      "name": "Modified Truss Wafer Head Self-Drilling Screw",
+      "category": "self-drilling-screws",
+      "categoryName": "Self-Drilling Screws",
+      "categoryCode": "CAT-02",
+      "standards": [
+        "DIN 7504M",
+        "Corroshield Spec"
+      ],
+      "materials": [
+        "C1022 Heat Treated Carbon Steel"
+      ],
+      "diameters": [
+        "#8 (4.2mm)",
+        "#10 (4.8mm)"
+      ],
+      "lengths": [
+        "13mm",
+        "19mm",
+        "25mm",
+        "32mm",
+        "42mm"
+      ],
+      "threadPitch": "High-Low Pitch for Rapid Cold-Formed Steel Seating",
+      "tolerance": "Class 2g Industrial",
+      "tensileStrength": "Torsional Rating > 8.0 Nm",
+      "hardness": "50 - 55 HRC Case Hardened",
+      "finishes": [
+        "Corroshield Silver",
+        "Bright Electro-Zinc",
+        "Yellow Dichromate"
+      ],
+      "certifications": [
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 10000,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Bulk Packaging",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbSyUotfUimP58OK6ldl2qb6-vEocPNl0SMCkVFGtYIW0RGJ7UPeUadRF75N9kA_WM3bmQBB7KItf5h7wltaH_E_dnYmvO18wKKsetaILEw1AMIQ4GNKgpg8DmkdLZ87GjABcdUjvBhRoqy5_iPt5hDI9krE_tLP6B6CRPPnFZW3rSZuy7GWvUOO1ua7jr24JmTq3Iujm5DxBxq0Y9qoffitqC8LSav4y258jcbYwHAcnOHt45EE4rew",
+      "description": "Extra-wide low profile wafer head fastener designed specifically for drywall framing, drywall tracks, electrical raceways, and sheet metal fabrication.",
+      "features": [
+        "Ultra-wide low profile bearing surface prevents sheet pull-through without washer",
+        "No. 2 and No. 3 drill points for instant bite without center-punching",
+        "Corroshield multi-layer protective treatment for indoor and covered outdoor runs"
+      ]
+    },
+    {
+      "id": "foif-sd-cement-winged",
+      "sku": "FOIF-SD-CEMENT",
+      "name": "Cement Sheet Self-Drilling Screw with Reamer Wings",
+      "category": "self-drilling-screws",
+      "categoryName": "Self-Drilling Screws",
+      "categoryCode": "CAT-02",
+      "standards": [
+        "AS 3566 Class 3/4"
+      ],
+      "materials": [
+        "High Carbon Steel C1022"
+      ],
+      "diameters": [
+        "#10 (4.8mm)",
+        "#12 (5.5mm)"
+      ],
+      "lengths": [
+        "38mm",
+        "45mm",
+        "55mm",
+        "65mm",
+        "85mm"
+      ],
+      "threadPitch": "Specialized Deep Purlin Thread",
+      "tolerance": "AS 3566 Standard",
+      "tensileStrength": "12 - 16 Nm Torsional Shear",
+      "hardness": "Case Hardened Core",
+      "finishes": [
+        "Class 4 Ruspert Grey",
+        "Mechanically Galvanized"
+      ],
+      "certifications": [
+        "AS 3566 Class 4 Verified"
+      ],
+      "minOrderQuantity": 5000,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Available on 48h Dispatch",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbSyUotfUimP58OK6ldl2qb6-vEocPNl0SMCkVFGtYIW0RGJ7UPeUadRF75N9kA_WM3bmQBB7KItf5h7wltaH_E_dnYmvO18wKKsetaILEw1AMIQ4GNKgpg8DmkdLZ87GjABcdUjvBhRoqy5_iPt5hDI9krE_tLP6B6CRPPnFZW3rSZuy7GWvUOO1ua7jr24JmTq3Iujm5DxBxq0Y9qoffitqC8LSav4y258jcbYwHAcnOHt45EE4rew",
+      "description": "Engineered reamer wings clear a clearance hole through fiber cement boards before breaking off as the hardened tip penetrates the underlying structural steel.",
+      "features": [
+        "Self-breaking reamer wings prevent jack-up of heavy cement or composite board",
+        "Ribbed countersunk head embeds cleanly flush without surface tearing",
+        "Class 4 Ruspert coating withstands aggressive alkaline cement compositions"
+      ]
+    },
+    {
+      "id": "foif-fnd-j-bolt",
+      "sku": "FOIF-FND-J",
+      "name": "J-Type Heavy Civil Foundation Anchor Bolt",
+      "category": "manufacturing-bolts",
+      "categoryName": "Manufacturing Foundation Bolts",
+      "categoryCode": "CAT-03",
+      "standards": [
+        "IS 2062",
+        "ASTM F1554 Grade 36/55",
+        "IS 5624"
+      ],
+      "materials": [
+        "IS 2062 E250 / E350",
+        "EN8 Carbon Steel",
+        "Grade 8.8"
+      ],
+      "diameters": [
+        "M16",
+        "M20",
+        "M24",
+        "M30",
+        "M36",
+        "M42",
+        "M48",
+        "M56",
+        "M64"
+      ],
+      "lengths": [
+        "300mm",
+        "450mm",
+        "600mm",
+        "750mm",
+        "900mm",
+        "1200mm",
+        "1500mm"
+      ],
+      "threadPitch": "Metric Coarse (Cut Thread or Thread Rolled)",
+      "tolerance": "Class 6g / 8g",
+      "tensileStrength": "410 - 800 MPa depending on steel grade",
+      "hardness": "As per steel specification",
+      "finishes": [
+        "Hot Dip Galvanized (HDG)",
+        "Self Colour Mill Finish",
+        "Zinc Rich Primer"
+      ],
+      "certifications": [
+        "EN 10204 3.1 MTR",
+        "Ultrasonic Tested (UT)"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Manufactured to Drawing - Dispatch 5-7 Days",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA2V3Vk5PTh1UhAYbLjnZLcdTQHpPeLwVQHCnrx74KSX0Bj14utRxcWuREUX8NBGHaEsvq_KPM7gy_NlW4wtUH_KR0a03n73LRavdW60ruqIXN9FJzc18U8K7xrDcvKousAe9GJGF3YMtu6KjrL0gdrNqY0YxX4gLH_k-NsqHpYM_P8wqDyTJROuSEffHespu-_dhpd1e7OX9dmmx4afu1MZoSInPb-2KwT3tANLfY3g_m7x1j5VhBXLQ",
+      "description": "Heavy forged foundation bolts with custom cold or hot-formed J-bend hook designed for cast-in-place concrete footing embedment in power plants and bridges.",
+      "features": [
+        "Custom hook radius and embedment length precisely matched to civil consultant drawings",
+        "Supplied complete with heavy hex nuts and 8mm thick hardened baseplate washers",
+        "Manufactured at FOIF Tirunelveli forging plant with 100% heat traceability"
+      ]
+    },
+    {
+      "id": "foif-fnd-l-bolt",
+      "sku": "FOIF-FND-L",
+      "name": "L-Type 90-Degree Bent Foundation Anchor Bolt",
+      "category": "manufacturing-bolts",
+      "categoryName": "Manufacturing Foundation Bolts",
+      "categoryCode": "CAT-03",
+      "standards": [
+        "IS 2062",
+        "ASTM F1554 Grade 55/105",
+        "IS 5624"
+      ],
+      "materials": [
+        "IS 2062",
+        "SAE 1045",
+        "Grade 8.8 High Tensile"
+      ],
+      "diameters": [
+        "M16",
+        "M20",
+        "M24",
+        "M30",
+        "M36",
+        "M48"
+      ],
+      "lengths": [
+        "300mm",
+        "400mm",
+        "600mm",
+        "800mm",
+        "1000mm"
+      ],
+      "threadPitch": "Metric Standard Cut Thread",
+      "tolerance": "ISO 965 Class 6g",
+      "tensileStrength": "500 - 850 MPa",
+      "hardness": "22 - 32 HRC",
+      "finishes": [
+        "Hot Dip Galvanized (ASTM A153)",
+        "Plain Clean Steel"
+      ],
+      "certifications": [
+        "EN 10204 3.1 Traceable"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Manufactured to Drawing",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA2V3Vk5PTh1UhAYbLjnZLcdTQHpPeLwVQHCnrx74KSX0Bj14utRxcWuREUX8NBGHaEsvq_KPM7gy_NlW4wtUH_KR0a03n73LRavdW60ruqIXN9FJzc18U8K7xrDcvKousAe9GJGF3YMtu6KjrL0gdrNqY0YxX4gLH_k-NsqHpYM_P8wqDyTJROuSEffHespu-_dhpd1e7OX9dmmx4afu1MZoSInPb-2KwT3tANLfY3g_m7x1j5VhBXLQ",
+      "description": "Rigid 90-degree bent foundation anchor bolt engineered for high-load anchorage into reinforced concrete footings for pre-engineered steel buildings.",
+      "features": [
+        "Exact 90-degree bend radius prevents concrete spalling or micro-cracking",
+        "Available with full thread runout or designated thread length",
+        "Certified raw materials from primary steel producers (Tata Steel / JSW)"
+      ]
+    },
+    {
+      "id": "foif-fnd-plate-welded",
+      "sku": "FOIF-FND-PLT",
+      "name": "Plate-Welded Heavy Foundation Anchor Assembly",
+      "category": "manufacturing-bolts",
+      "categoryName": "Manufacturing Foundation Bolts",
+      "categoryCode": "CAT-03",
+      "standards": [
+        "Custom OEM Drawing",
+        "AWS D1.1 Structural Welding"
+      ],
+      "materials": [
+        "EN8 / EN24 Alloy Rods + IS 2062 Baseplates"
+      ],
+      "diameters": [
+        "M24",
+        "M30",
+        "M36",
+        "M42",
+        "M48",
+        "M64",
+        "M72",
+        "M90"
+      ],
+      "lengths": [
+        "500mm",
+        "800mm",
+        "1200mm",
+        "1500mm",
+        "2000mm+"
+      ],
+      "threadPitch": "Metric Coarse Heavy Pitch",
+      "tolerance": "Custom Engineering Spec",
+      "tensileStrength": "Matched to Structural Column Calculations",
+      "hardness": "High Tensile Core",
+      "finishes": [
+        "Black Bituminous Paint on Embedment",
+        "HDG Thread Projection"
+      ],
+      "certifications": [
+        "WPS / PQR Approved",
+        "EN 10204 3.1 MTR"
+      ],
+      "minOrderQuantity": 50,
+      "unit": "sets",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Fabricated to Engineering Drawing",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA2V3Vk5PTh1UhAYbLjnZLcdTQHpPeLwVQHCnrx74KSX0Bj14utRxcWuREUX8NBGHaEsvq_KPM7gy_NlW4wtUH_KR0a03n73LRavdW60ruqIXN9FJzc18U8K7xrDcvKousAe9GJGF3YMtu6KjrL0gdrNqY0YxX4gLH_k-NsqHpYM_P8wqDyTJROuSEffHespu-_dhpd1e7OX9dmmx4afu1MZoSInPb-2KwT3tANLfY3g_m7x1j5VhBXLQ",
+      "description": "Pre-fabricated heavy industrial anchor cage assemblies featuring bottom anchor plates welded with full penetration fillets to prevent pullout under seismic uplift.",
+      "features": [
+        "Supplied with CNC flame-cut bottom anchor plates and pipe sleeves",
+        "Pre-assembled in rigid template cages for error-free concrete pours",
+        "Ideal for wind turbine foundations, refinery cracking towers, and rolling mills"
+      ]
+    },
+    {
+      "id": "foif-fnd-stud-rod",
+      "sku": "FOIF-FND-STUD",
+      "name": "Bespoke Full-Threaded High-Tensile Structural Stud",
+      "category": "manufacturing-bolts",
+      "categoryName": "Manufacturing Foundation Bolts",
+      "categoryCode": "CAT-03",
+      "standards": [
+        "DIN 976-1",
+        "ASTM A193 B7 / B16"
+      ],
+      "materials": [
+        "ASTM A193 B7 Chromium-Molybdenum",
+        "Class 8.8",
+        "Class 10.9"
+      ],
+      "diameters": [
+        "M16",
+        "M20",
+        "M24",
+        "M30",
+        "M36",
+        "M42",
+        "M48"
+      ],
+      "lengths": [
+        "500mm",
+        "1000mm",
+        "1500mm",
+        "2000mm",
+        "3000mm"
+      ],
+      "threadPitch": "Full Continuous Thread Profile",
+      "tolerance": "ISO 965 Class 6g",
+      "tensileStrength": "860 - 1040 MPa",
+      "hardness": "32 - 38 HRC",
+      "finishes": [
+        "Hot Dip Galvanized",
+        "PTFE Blue Coated",
+        "Black Thermal"
+      ],
+      "certifications": [
+        "EN 10204 3.1 MTR"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Available on 48h Dispatch",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA2V3Vk5PTh1UhAYbLjnZLcdTQHpPeLwVQHCnrx74KSX0Bj14utRxcWuREUX8NBGHaEsvq_KPM7gy_NlW4wtUH_KR0a03n73LRavdW60ruqIXN9FJzc18U8K7xrDcvKousAe9GJGF3YMtu6KjrL0gdrNqY0YxX4gLH_k-NsqHpYM_P8wqDyTJROuSEffHespu-_dhpd1e7OX9dmmx4afu1MZoSInPb-2KwT3tANLfY3g_m7x1j5VhBXLQ",
+      "description": "Continuously threaded heavy structural stud rods cut to custom lengths for high-pressure pipe flanges, structural tie rods, and seismic foundation anchorage.",
+      "features": [
+        "Precision cold thread-rolled with smooth root radiuses for fatigue resistance",
+        "Available in continuous lengths up to 3 meters or pre-cut to customer schedule",
+        "Comes with dual high-tensile 2H heavy nuts on both ends"
+      ]
+    },
+    {
+      "id": "foif-chm-a4-capsule",
+      "sku": "FOIF-CHM-A4",
+      "name": "Chemical Injection Anchor Stud Rod with Capsule",
+      "category": "anchor-fasteners",
+      "categoryName": "Anchor Fasteners",
+      "categoryCode": "CAT-04",
+      "standards": [
+        "ETA Option 1 (Cracked Concrete)",
+        "ISO 9001:2015"
+      ],
+      "materials": [
+        "Grade A4-70 (SS316)",
+        "Grade 5.8 Galvanized",
+        "Grade 8.8"
+      ],
+      "diameters": [
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20",
+        "M24",
+        "M30"
+      ],
+      "lengths": [
+        "110mm",
+        "130mm",
+        "160mm",
+        "190mm",
+        "260mm",
+        "300mm"
+      ],
+      "threadPitch": "Metric Standard with 45° Chisel Point",
+      "tolerance": "ISO 965 Class 6g",
+      "tensileStrength": "700 - 800 MPa",
+      "hardness": "28 - 35 HRC",
+      "finishes": [
+        "Passivated SS316",
+        "Hot Dip Galvanized (HDG)"
+      ],
+      "certifications": [
+        "ETA-Approved Seismic C1/C2",
+        "EN 10204 3.1"
+      ],
+      "minOrderQuantity": 200,
+      "unit": "sets",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Complete Stud + Capsule Sets",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDs_Z_qf1lN8YDNMIX8iqeZVJwilerVGUkalCmKj2Cvd1YjZujCShCE6JIDK-hOs99uCLS1H9v9i9_jV3LoZwKosJseLyHFqGNBQO5ihALdkWU02QUJF8z0D6ZvXPKfdl4x_pLnKKre_pYv6heONsiBn50RkmAHHiaDDbUE9bNTbJENLFd5qqCw86yl_PBf6dwk1gsHicAR2Xq1vaw15mjthnXD6BChP_xzEhvwE-e2rpdjWuSQc9hkxw",
+      "description": "High-performance vinylester / pure epoxy chemical anchoring system featuring chisel-ended stud rods for close-to-edge structural fixings without expansion stress.",
+      "features": [
+        "Zero expansion stress allows minimal edge and spacing distances in concrete",
+        "Pure epoxy resin provides superior bond strength under high dynamic and seismic loads",
+        "Approved for cracked and uncracked concrete, subsea, and wet hole drilling"
+      ]
+    },
+    {
+      "id": "foif-wdg-hdg-anchor",
+      "sku": "FOIF-WDG-HDG",
+      "name": "Heavy-Duty Through-Bolt Wedge Anchor",
+      "category": "anchor-fasteners",
+      "categoryName": "Anchor Fasteners",
+      "categoryCode": "CAT-04",
+      "standards": [
+        "ETA Option 7",
+        "DIN EN ISO 4042"
+      ],
+      "materials": [
+        "Carbon Steel High Strength",
+        "SS316 Marine Grade"
+      ],
+      "diameters": [
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20"
+      ],
+      "lengths": [
+        "65mm",
+        "80mm",
+        "100mm",
+        "125mm",
+        "150mm",
+        "180mm",
+        "200mm"
+      ],
+      "threadPitch": "Metric Standard",
+      "tolerance": "ISO Class 6g",
+      "tensileStrength": "Tension Capacity up to 48 kN",
+      "hardness": "Cold-Formed Hardened Clip",
+      "finishes": [
+        "Hot Dip Galvanized",
+        "Bright Zinc",
+        "Stainless Clean"
+      ],
+      "certifications": [
+        "ETA Approved",
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 500,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Dispatch within 24-48h",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDs_Z_qf1lN8YDNMIX8iqeZVJwilerVGUkalCmKj2Cvd1YjZujCShCE6JIDK-hOs99uCLS1H9v9i9_jV3LoZwKosJseLyHFqGNBQO5ihALdkWU02QUJF8z0D6ZvXPKfdl4x_pLnKKre_pYv6heONsiBn50RkmAHHiaDDbUE9bNTbJENLFd5qqCw86yl_PBf6dwk1gsHicAR2Xq1vaw15mjthnXD6BChP_xzEhvwE-e2rpdjWuSQc9hkxw",
+      "description": "Mechanical expansion through-bolt designed for fast hammer-in and torque-up installation through baseplates directly into drilled concrete holes.",
+      "features": [
+        "Through-fixing design speeds installation through fixtures without layout marking",
+        "Pre-assembled stainless expansion clip grips firmly against hole walls",
+        "Embossed head lettering verifies correct embedment depth upon inspection"
+      ]
+    },
+    {
+      "id": "foif-drp-internal-anchor",
+      "sku": "FOIF-DRP-INT",
+      "name": "Heavy-Duty Drop-In Internal Thread Anchor",
+      "category": "anchor-fasteners",
+      "categoryName": "Anchor Fasteners",
+      "categoryCode": "CAT-04",
+      "standards": [
+        "DIN 7952",
+        "ETA Option 1"
+      ],
+      "materials": [
+        "Cold Formed Carbon Steel",
+        "SS304",
+        "SS316"
+      ],
+      "diameters": [
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20"
+      ],
+      "lengths": [
+        "25mm",
+        "30mm",
+        "40mm",
+        "50mm",
+        "65mm",
+        "80mm"
+      ],
+      "threadPitch": "Internal Metric Standard Thread",
+      "tolerance": "ISO 965 Class 6H",
+      "tensileStrength": "Pullout Load up to 32 kN",
+      "hardness": "Case Hardened Expandable Shell",
+      "finishes": [
+        "Yellow Dichromate",
+        "Bright Zinc Plated"
+      ],
+      "certifications": [
+        "ETA Compliant"
+      ],
+      "minOrderQuantity": 1000,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Bulk Master Boxes",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDs_Z_qf1lN8YDNMIX8iqeZVJwilerVGUkalCmKj2Cvd1YjZujCShCE6JIDK-hOs99uCLS1H9v9i9_jV3LoZwKosJseLyHFqGNBQO5ihALdkWU02QUJF8z0D6ZvXPKfdl4x_pLnKKre_pYv6heONsiBn50RkmAHHiaDDbUE9bNTbJENLFd5qqCw86yl_PBf6dwk1gsHicAR2Xq1vaw15mjthnXD6BChP_xzEhvwE-e2rpdjWuSQc9hkxw",
+      "description": "Flush-mount internally threaded concrete expansion anchor for suspended MEP piping, HVAC ducting, cable trays, and machinery tie-downs.",
+      "features": [
+        "Sits completely flush with concrete surface allowing temporary fixture removal",
+        "Internal expansion cone driven by manual setting punch for verified expansion",
+        "Accepts standard metric bolts, threaded studs, and eye bolts"
+      ]
+    },
+    {
+      "id": "foif-sld-heavy-shield",
+      "sku": "FOIF-SLD-HD",
+      "name": "Heavy-Duty Shield Anchor Assembly (Loose Bolt Type)",
+      "category": "anchor-fasteners",
+      "categoryName": "Anchor Fasteners",
+      "categoryCode": "CAT-04",
+      "standards": [
+        "BS 5080",
+        "ISO 9001:2015"
+      ],
+      "materials": [
+        "Malleable Iron / Pressed Steel Shield + Grade 8.8 Bolt"
+      ],
+      "diameters": [
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16"
+      ],
+      "lengths": [
+        "45mm",
+        "60mm",
+        "75mm",
+        "90mm",
+        "110mm",
+        "130mm"
+      ],
+      "threadPitch": "Metric Standard",
+      "tolerance": "ISO Class 6g",
+      "tensileStrength": "Shear Load > 22 kN",
+      "hardness": "High Expansion Resistance",
+      "finishes": [
+        "Bright Zinc Plated with Clear Passivation"
+      ],
+      "certifications": [
+        "Factory Proof Load Tested"
+      ],
+      "minOrderQuantity": 500,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Available on 48h Dispatch",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDs_Z_qf1lN8YDNMIX8iqeZVJwilerVGUkalCmKj2Cvd1YjZujCShCE6JIDK-hOs99uCLS1H9v9i9_jV3LoZwKosJseLyHFqGNBQO5ihALdkWU02QUJF8z0D6ZvXPKfdl4x_pLnKKre_pYv6heONsiBn50RkmAHHiaDDbUE9bNTbJENLFd5qqCw86yl_PBf6dwk1gsHicAR2Xq1vaw15mjthnXD6BChP_xzEhvwE-e2rpdjWuSQc9hkxw",
+      "description": "Four-piece heavy expansion shield anchor engineered for secure mechanical fastening in solid masonry, dense concrete, and natural stone.",
+      "features": [
+        "Four-way expansion segments distribute radial pressure evenly across old or brittle substrates",
+        "Supplied complete with high-tensile Grade 8.8 hex head bolt and captured washer",
+        "Excellent resistance to dynamic shock loading and vibration"
+      ]
+    },
+    {
+      "id": "foif-ab-cut-wheel",
+      "sku": "FOIF-AB-CUT",
+      "name": "Precision Thin Cut-Off Wheel for Steel & Inox",
+      "category": "abrasives",
+      "categoryName": "Abrasives & Cutting",
+      "categoryCode": "CAT-05",
+      "standards": [
+        "EN 12413",
+        "oSa Safety Certified"
+      ],
+      "materials": [
+        "Premium Aluminum Oxide / Zirconia Ceramic"
+      ],
+      "diameters": [
+        "105mm (4\")",
+        "115mm (4.5\")",
+        "125mm (5\")",
+        "355mm (14\")"
+      ],
+      "lengths": [
+        "1.0mm Thin",
+        "1.2mm",
+        "1.6mm",
+        "2.8mm Chop Saw"
+      ],
+      "threadPitch": "Bore Size 16mm / 22.23mm / 25.4mm",
+      "tolerance": "Balanced Max RPM 15,300 (80 m/s)",
+      "tensileStrength": "Dual Fiberglass Reinforcement Mesh",
+      "hardness": "Grade R / S Hardness",
+      "finishes": [
+        "Dry Cut Free",
+        "Iron / Sulfur / Chlorine Free (Fe < 0.1%)"
+      ],
+      "certifications": [
+        "EN 12413",
+        "oSa Member"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Master Carton Lots",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2MpCfLg-YsuzEPOSX7_BXieZ5YpheCtqCYfZbmXRSxa_vW80n0GeJRiz66wvjbhsAbhEONBfHLFNPFNEmroul7MDqfFxOmEi0_TOjDuftL7qsQ-z7EH7RRlFolSTJZ3tESmKubdaPoXFXZpZ1_XMqH3kwim1EXiFpHTg8xffpp5Yww3oGTb7u9byLNl2FV74u7WocKfCjkv4QUc5egEZL18ER64ud6B_tbwWD3dyq3zMIsmpCIUoLrQ",
+      "description": "Ultra-thin precision abrasive cutoff disc engineered for burr-free, thermal-discoloration-free cutting of high-tensile alloy studs and stainless steel.",
+      "features": [
+        "1.0mm razor profile minimizes motor drag and kerf material loss",
+        "Free of iron, sulfur, and chlorine — prevents intergranular rust on stainless steels",
+        "Full oSa safety compliance rated to maximum peripheral speed of 80 m/s"
+      ]
+    },
+    {
+      "id": "foif-ab-depressed-grind",
+      "sku": "FOIF-AB-GRD",
+      "name": "Heavy Depressed Center Grinding Disc",
+      "category": "abrasives",
+      "categoryName": "Abrasives & Cutting",
+      "categoryCode": "CAT-05",
+      "standards": [
+        "EN 12413 Type 27",
+        "oSa Certified"
+      ],
+      "materials": [
+        "Zirconia Alumina + Heavy Phenolic Resin"
+      ],
+      "diameters": [
+        "100mm (4\")",
+        "115mm (4.5\")",
+        "125mm (5\")",
+        "180mm (7\")",
+        "230mm (9\")"
+      ],
+      "lengths": [
+        "4.0mm",
+        "6.0mm",
+        "6.8mm Heavy Duty"
+      ],
+      "threadPitch": "Bore 22.23mm (7/8\")",
+      "tolerance": "Max Peripheral Speed 80 m/s",
+      "tensileStrength": "Triple Reinforcement Fiber Mesh",
+      "hardness": "Grade T Extra Hard",
+      "finishes": [
+        "Rough Face High Removal"
+      ],
+      "certifications": [
+        "EN 12413 Compliant"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Master Boxes",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2MpCfLg-YsuzEPOSX7_BXieZ5YpheCtqCYfZbmXRSxa_vW80n0GeJRiz66wvjbhsAbhEONBfHLFNPFNEmroul7MDqfFxOmEi0_TOjDuftL7qsQ-z7EH7RRlFolSTJZ3tESmKubdaPoXFXZpZ1_XMqH3kwim1EXiFpHTg8xffpp5Yww3oGTb7u9byLNl2FV74u7WocKfCjkv4QUc5egEZL18ER64ud6B_tbwWD3dyq3zMIsmpCIUoLrQ",
+      "description": "High-stock removal Type 27 depressed center grinding disc for heavy weld seam dressing, beveling structural plate edges, and cast iron deburring.",
+      "features": [
+        "Premium zirconia alumina grain self-sharpens under heavy grinder pressure",
+        "Triple layer heavy fiberglass mesh prevents centrifugal burst under heavy lateral force",
+        "Optimized bond prevents glazing on high-tensile structural welds"
+      ]
+    },
+    {
+      "id": "foif-ab-flap-disc",
+      "sku": "FOIF-AB-FLP",
+      "name": "Zirconium High-Density Flap Disc for Weld Blending",
+      "category": "abrasives",
+      "categoryName": "Abrasives & Cutting",
+      "categoryCode": "CAT-05",
+      "standards": [
+        "EN 13743",
+        "oSa Certified"
+      ],
+      "materials": [
+        "High-Purity Zirconia Alumina Cloth + Glass Fibre Plate"
+      ],
+      "diameters": [
+        "100mm (4\")",
+        "115mm (4.5\")",
+        "125mm (5\")"
+      ],
+      "lengths": [
+        "Grit 40 (Coarse)",
+        "Grit 60 (Medium)",
+        "Grit 80 (Fine)",
+        "Grit 120 (Satin)"
+      ],
+      "threadPitch": "Conical 15° (Type 29) & Flat (Type 27)",
+      "tolerance": "Bore 16mm / 22.23mm",
+      "tensileStrength": "High Tenacity Poly-Cotton Cloth",
+      "hardness": "High Fracture Toughness",
+      "finishes": [
+        "Zirconia Blue Cloth"
+      ],
+      "certifications": [
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - All Grit Assortments",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2MpCfLg-YsuzEPOSX7_BXieZ5YpheCtqCYfZbmXRSxa_vW80n0GeJRiz66wvjbhsAbhEONBfHLFNPFNEmroul7MDqfFxOmEi0_TOjDuftL7qsQ-z7EH7RRlFolSTJZ3tESmKubdaPoXFXZpZ1_XMqH3kwim1EXiFpHTg8xffpp5Yww3oGTb7u9byLNl2FV74u7WocKfCjkv4QUc5egEZL18ER64ud6B_tbwWD3dyq3zMIsmpCIUoLrQ",
+      "description": "Engineered multi-leaf abrasive flap disc combining rapid material removal with consistent uniform surface blending on carbon and stainless steels.",
+      "features": [
+        "Premium German-formulated zirconium grain provides 3x lifespan of standard aluminum oxide",
+        "72-leaf high density layout runs cooler and prevents heat tinting on stainless",
+        "Reinforced glass fiber backing plate absorbs vibration for operator comfort"
+      ]
+    },
+    {
+      "id": "foif-ab-tct-blade",
+      "sku": "FOIF-AB-TCT",
+      "name": "Tungsten Carbide Tipped (TCT) Industrial Saw Blade",
+      "category": "abrasives",
+      "categoryName": "Abrasives & Cutting",
+      "categoryCode": "CAT-05",
+      "standards": [
+        "EN 847-1",
+        "ISO 9001"
+      ],
+      "materials": [
+        "Hardened Laser-Cut 75Cr1 Alloy Steel Plate + C6 Tungsten Carbide Tips"
+      ],
+      "diameters": [
+        "250mm (10\")",
+        "305mm (12\")",
+        "355mm (14\")"
+      ],
+      "lengths": [
+        "Tooth Count: 60T, 72T, 80T, 90T Triple Chip"
+      ],
+      "threadPitch": "Bore 25.4mm / 30mm with expansion slots",
+      "tolerance": "Laser Flatness < 0.05mm",
+      "tensileStrength": "Micro-Grain Carbide 92.5 HRA",
+      "hardness": "Core 44 HRC",
+      "finishes": [
+        "Teflon Non-Stick Thermal Coating"
+      ],
+      "certifications": [
+        "EN 847-1 Verified"
+      ],
+      "minOrderQuantity": 10,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Standard Dispatch",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2MpCfLg-YsuzEPOSX7_BXieZ5YpheCtqCYfZbmXRSxa_vW80n0GeJRiz66wvjbhsAbhEONBfHLFNPFNEmroul7MDqfFxOmEi0_TOjDuftL7qsQ-z7EH7RRlFolSTJZ3tESmKubdaPoXFXZpZ1_XMqH3kwim1EXiFpHTg8xffpp5Yww3oGTb7u9byLNl2FV74u7WocKfCjkv4QUc5egEZL18ER64ud6B_tbwWD3dyq3zMIsmpCIUoLrQ",
+      "description": "Heavy dry-cutting industrial cold saw blade with triple-chip ground micro-grain carbide tips for cutting solid steel bars, tubing, and strut channels.",
+      "features": [
+        "Dry cold-cut technology produces virtually no sparks, odor, or edge burrs",
+        "Laser-cut vibration damping slots filled with synthetic resin reduce cutting resonance",
+        "C6 grade carbide teeth maintain razor cutting edge through 10,000+ linear cuts"
+      ]
+    },
+    {
+      "id": "foif-sp-titanium-gr5",
+      "sku": "FOIF-SP-TI",
+      "name": "Titanium Grade 5 (Ti-6Al-4V) Hex & Socket Fasteners",
+      "category": "specialty-fasteners",
+      "categoryName": "Specialty Fasteners & Exotic Alloys",
+      "categoryCode": "CAT-06",
+      "standards": [
+        "ASTM B348",
+        "AMS 4928",
+        "DIN 933 / DIN 912 Spec"
+      ],
+      "materials": [
+        "Titanium Grade 5 (Ti-6Al-4V)",
+        "Grade 2 Pure Titanium"
+      ],
+      "diameters": [
+        "M4",
+        "M5",
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16"
+      ],
+      "lengths": [
+        "12mm",
+        "20mm",
+        "30mm",
+        "45mm",
+        "60mm",
+        "80mm"
+      ],
+      "threadPitch": "Metric Precision Cut Thread",
+      "tolerance": "ISO 965 Class 4h/6g Precision",
+      "tensileStrength": "Minimum 895 - 1000 MPa",
+      "hardness": "36 HRC (Density 4.43 g/cm³)",
+      "finishes": [
+        "Anodized Gold / Natural Burnished Titanium"
+      ],
+      "certifications": [
+        "Full Aerospace Material Test Certificate (EN 10204 3.1)"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Manufactured on Precision CNC Lathes",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjhegVQEkc1hlET8yIJvoXEgc3x71WskEc0shTrK1gcjPWwhYOA61GERbMtfEAWpKhRulVpvNM_awcuOEv5Xj51uy0SfHXNxR3WQ9WurfxoNB6UCuA1l1jQCv4kGIAq5J4k9eFjfkuiHUGJNslMf5gw-Ar5vmb7Gcj7_i8vaK1ah6SEl270MNMPgOJTSMuzWtKuyKpFkbUh6PAzuCsMWN_j0MvHw8ULN-0uqrJ-7qV_8xXvtzCvrTKLw",
+      "description": "Aerospace-grade titanium alloy fasteners delivering 45% weight reduction compared to structural steel while matching Grade 10.9 tensile strength.",
+      "features": [
+        "45% lighter than steel with superior strength-to-weight ratio",
+        "Total immunity to chloride pitting, marine spray, and galvanic oxidation",
+        "CNC milled from aerospace certified Ti-6Al-4V vacuum-arc remelted bar stock"
+      ]
+    },
+    {
+      "id": "foif-sp-inconel-625",
+      "sku": "FOIF-SP-INC",
+      "name": "Inconel 625 / 718 High Temperature Subsea Stud Bolts",
+      "category": "specialty-fasteners",
+      "categoryName": "Specialty Fasteners & Exotic Alloys",
+      "categoryCode": "CAT-06",
+      "standards": [
+        "ASTM B446",
+        "ASTM B637",
+        "NACE MR0175 / ISO 15156"
+      ],
+      "materials": [
+        "Inconel 625 (UNS N06625)",
+        "Inconel 718 (UNS N07718)"
+      ],
+      "diameters": [
+        "1/2\"",
+        "5/8\"",
+        "3/4\"",
+        "7/8\"",
+        "1\"",
+        "1-1/4\"",
+        "M16",
+        "M20",
+        "M24",
+        "M30"
+      ],
+      "lengths": [
+        "65mm",
+        "90mm",
+        "120mm",
+        "160mm",
+        "220mm",
+        "300mm"
+      ],
+      "threadPitch": "UNC / 8UN Standard Pitch",
+      "tolerance": "Class 2A Thread Fit",
+      "tensileStrength": "965 - 1350 MPa",
+      "hardness": "35 - 45 HRC (Precipitation Hardened)",
+      "finishes": [
+        "Bright Pickled / Passivated"
+      ],
+      "certifications": [
+        "NACE MR0175 Compliant",
+        "EN 10204 3.1 & 3.2 Available"
+      ],
+      "minOrderQuantity": 50,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Engineered to Offshore Spec",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjhegVQEkc1hlET8yIJvoXEgc3x71WskEc0shTrK1gcjPWwhYOA61GERbMtfEAWpKhRulVpvNM_awcuOEv5Xj51uy0SfHXNxR3WQ9WurfxoNB6UCuA1l1jQCv4kGIAq5J4k9eFjfkuiHUGJNslMf5gw-Ar5vmb7Gcj7_i8vaK1ah6SEl270MNMPgOJTSMuzWtKuyKpFkbUh6PAzuCsMWN_j0MvHw8ULN-0uqrJ-7qV_8xXvtzCvrTKLw",
+      "description": "High-nickel superalloy fasteners engineered for extreme operating temperatures (-250°C to +980°C) and sour gas subsea wellhead environments.",
+      "features": [
+        "Immune to chloride stress corrosion cracking, pitting, and crevice attack",
+        "Full compliance with NACE MR0175 / ISO 15156 for upstream petrochemical installations",
+        "Supplied complete with matched Inconel 625 heavy hex nuts"
+      ]
+    },
+    {
+      "id": "foif-sp-weld-stud",
+      "sku": "FOIF-SP-WELD",
+      "name": "Drawn Arc Weld Studs & Ceramic Ferrules",
+      "category": "specialty-fasteners",
+      "categoryName": "Specialty Fasteners & Exotic Alloys",
+      "categoryCode": "CAT-06",
+      "standards": [
+        "ISO 13918 Type PD/RD",
+        "AWS D1.1 Structural Welding"
+      ],
+      "materials": [
+        "Low Carbon Steel Grade 4.8",
+        "SS304",
+        "SS316"
+      ],
+      "diameters": [
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "M20"
+      ],
+      "lengths": [
+        "25mm",
+        "40mm",
+        "50mm",
+        "75mm",
+        "100mm",
+        "150mm"
+      ],
+      "threadPitch": "Metric Thread with Solid Aluminum Flux Ball Tip",
+      "tolerance": "ISO 13918 Specification",
+      "tensileStrength": "450 - 550 MPa",
+      "hardness": "High Ductility Core",
+      "finishes": [
+        "Copper Plated / Clean Self Colour"
+      ],
+      "certifications": [
+        "ISO 13918 Verified",
+        "WPS Qualified"
+      ],
+      "minOrderQuantity": 1000,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock with Matching Ceramic Ferrules",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjhegVQEkc1hlET8yIJvoXEgc3x71WskEc0shTrK1gcjPWwhYOA61GERbMtfEAWpKhRulVpvNM_awcuOEv5Xj51uy0SfHXNxR3WQ9WurfxoNB6UCuA1l1jQCv4kGIAq5J4k9eFjfkuiHUGJNslMf5gw-Ar5vmb7Gcj7_i8vaK1ah6SEl270MNMPgOJTSMuzWtKuyKpFkbUh6PAzuCsMWN_j0MvHw8ULN-0uqrJ-7qV_8xXvtzCvrTKLw",
+      "description": "Capacitor discharge and drawn arc weld studs with integrated solid aluminum deoxidizer tip for instant fusion welding onto structural steel beams.",
+      "features": [
+        "Solid aluminum ball tip deoxidizes weld pool to produce porous-free 100% full-strength weld",
+        "Supplied with disposable thermal ceramic shielding ferrules",
+        "Ideal for composite steel decking, electrical earthing, and industrial enclosures"
+      ]
+    },
+    {
+      "id": "foif-sp-dowel-pin",
+      "sku": "FOIF-SP-DWL",
+      "name": "Hardened & Ground Precision Metric Dowel Pins",
+      "category": "specialty-fasteners",
+      "categoryName": "Specialty Fasteners & Exotic Alloys",
+      "categoryCode": "CAT-06",
+      "standards": [
+        "DIN 7979",
+        "DIN 6325",
+        "ISO 8734"
+      ],
+      "materials": [
+        "100Cr6 Through-Hardened Bearing Steel",
+        "SS316 Ground"
+      ],
+      "diameters": [
+        "3mm",
+        "4mm",
+        "5mm",
+        "6mm",
+        "8mm",
+        "10mm",
+        "12mm",
+        "16mm",
+        "20mm"
+      ],
+      "lengths": [
+        "10mm",
+        "16mm",
+        "24mm",
+        "32mm",
+        "40mm",
+        "50mm",
+        "70mm"
+      ],
+      "threadPitch": "Plain Ground / Internal Extraction Thread (DIN 7979D)",
+      "tolerance": "Diameter Tolerance Class m6 (Precision +0.002mm / +0.006mm)",
+      "tensileStrength": "Shear Strength > 950 MPa",
+      "hardness": "58 - 62 HRC Ultra Hardened",
+      "finishes": [
+        "Precision Superfinish Ground Surface (Ra < 0.2µm)"
+      ],
+      "certifications": [
+        "ISO 9001:2015"
+      ],
+      "minOrderQuantity": 500,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In Stock - Dispatch within 24h",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjhegVQEkc1hlET8yIJvoXEgc3x71WskEc0shTrK1gcjPWwhYOA61GERbMtfEAWpKhRulVpvNM_awcuOEv5Xj51uy0SfHXNxR3WQ9WurfxoNB6UCuA1l1jQCv4kGIAq5J4k9eFjfkuiHUGJNslMf5gw-Ar5vmb7Gcj7_i8vaK1ah6SEl270MNMPgOJTSMuzWtKuyKpFkbUh6PAzuCsMWN_j0MvHw8ULN-0uqrJ-7qV_8xXvtzCvrTKLw",
+      "description": "Ultra-precision cylindrical locating dowel pins ground to micron tolerances for positioning machine tooling, gearbox housings, and stamping dies.",
+      "features": [
+        "Precision m6 ground tolerance guarantees flawless location repeatability",
+        "Chamfered lead-in ends prevent hole scoring during press-fit insertion",
+        "Available with internal metric pull-out thread for blind hole removal"
+      ]
+    },
+    {
+      "id": "foif-ct-hdg-treatment",
+      "sku": "FOIF-CT-HDG",
+      "name": "Hot-Dip Galvanizing Protective Treatment (ASTM A153)",
+      "category": "coatings-finishes",
+      "categoryName": "Coatings & Surface Treatments",
+      "categoryCode": "CAT-07",
+      "standards": [
+        "ASTM A153 / A153M Class C",
+        "ISO 10684",
+        "IS 4759"
+      ],
+      "materials": [
+        "Batch Hot-Dip Metallurgical Zinc Immersion"
+      ],
+      "diameters": [
+        "Applicable to M8 through M100+ Fastener Consignments"
+      ],
+      "lengths": [
+        "Coating Thickness: 55µm - 85µm (390 g/m² - 610 g/m²)"
+      ],
+      "threadPitch": "Oversized Nut Tapping (ISO 965-5 Class 6AZ) included",
+      "tolerance": "Centrifuged Clean Thread Profile",
+      "tensileStrength": "Zero degradation to Class 8.8 / 10.9 steel",
+      "hardness": "Gamma / Delta Intermetallic Zinc Alloy Layer (250+ DPH)",
+      "finishes": [
+        "Dull Spangle Silver Matte"
+      ],
+      "certifications": [
+        "ASTM B117 1000h Red Rust Tested",
+        "EN 10204 3.1"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "kg",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "In-House Hot Dip Processing Line",
+      "featured": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBB9GNqfi3vimjS5ZBG-Yrn00tbp_avnDhxEbMpAfMNirzpKGUIkX0lqYaU1-AJGLefCn-ZKFvrsBlAkoCuQQdgqRTxQmsmBDyNrrVZB5REKtqR89oGdy5QcSGI4LZOewOu3r-yD70TW2rw5M4TAqd7M1ubVJNXboM3_680htHiGvDIczqwwtRTZEs7K3OMkR9KSe-ZxTWcrK5XDiDpOcsZNCDuBN0bOJgmTsNVU5ii7026IJiWtfWMEQ",
+      "description": "Centrifuged hot-dip galvanizing immersion producing an iron-zinc alloy metallurgical bond that delivers 30+ years of sacrificial protection in coastal civil infrastructure.",
+      "features": [
+        "High-speed centrifuge spin immediately after immersion clears thread roots",
+        "True sacrificial galvanic protection heals minor site scratches automatically",
+        "Internal nuts pre-tapped oversize to ensure smooth hand-tight assembly on site"
+      ]
+    },
+    {
+      "id": "foif-ct-ptfe-xylan",
+      "sku": "FOIF-CT-PTFE",
+      "name": "PTFE / Xylan 1014 & 1424 Fluoropolymer Anti-Corrosion Barrier",
+      "category": "coatings-finishes",
+      "categoryName": "Coatings & Surface Treatments",
+      "categoryCode": "CAT-07",
+      "standards": [
+        "Whitford Quality Approved Coater",
+        "ASTM B117 (3,000h SST)"
+      ],
+      "materials": [
+        "Thermoset Fluoropolymer / Resin Composite Matrix"
+      ],
+      "diameters": [
+        "All Metric & Imperial High-Tensile Studs"
+      ],
+      "lengths": [
+        "Film Thickness: 20µm - 25µm Uniform"
+      ],
+      "threadPitch": "Dry Film Lubricant (Friction Coefficient 0.04 - 0.08)",
+      "tolerance": "Uniform Micro-Coat (No thread re-tapping required)",
+      "tensileStrength": "Rated up to 260°C Continuous Service",
+      "hardness": "Flexible impact resistant resin matrix",
+      "finishes": [
+        "Xylan Blue (Standard)",
+        "Xylan Green",
+        "Xylan Yellow",
+        "Black"
+      ],
+      "certifications": [
+        "NACE Compliant",
+        "ASTM B117 3,000h Salt Spray Certificate"
+      ],
+      "minOrderQuantity": 100,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Processed to Project Specification",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBB9GNqfi3vimjS5ZBG-Yrn00tbp_avnDhxEbMpAfMNirzpKGUIkX0lqYaU1-AJGLefCn-ZKFvrsBlAkoCuQQdgqRTxQmsmBDyNrrVZB5REKtqR89oGdy5QcSGI4LZOewOu3r-yD70TW2rw5M4TAqd7M1ubVJNXboM3_680htHiGvDIczqwwtRTZEs7K3OMkR9KSe-ZxTWcrK5XDiDpOcsZNCDuBN0bOJgmTsNVU5ii7026IJiWtfWMEQ",
+      "description": "Engineered multi-layer fluoropolymer barrier coating combining extreme resistance to sour subsea chemicals with extremely low breakout torque for offshore bolting.",
+      "features": [
+        "Over 3,000 hours ASTM B117 salt spray neutral corrosion protection",
+        "Extremely low coefficient of friction eliminates galling on stainless and alloy studs",
+        "Facilitates effortless breakout torque during refinery shutdown and turnaround"
+      ]
+    },
+    {
+      "id": "foif-ct-geomet-barrier",
+      "sku": "FOIF-CT-GEOMET",
+      "name": "Geomet 500 / 720 Non-Electrolytic Zinc Flake Coating",
+      "category": "coatings-finishes",
+      "categoryName": "Coatings & Surface Treatments",
+      "categoryCode": "CAT-07",
+      "standards": [
+        "ISO 10683",
+        "ASTM F1136",
+        "Automotive OEM Standards"
+      ],
+      "materials": [
+        "Non-Electrolytic Zinc and Aluminum Flakes"
+      ],
+      "diameters": [
+        "M4 through M36 High Tensile Hardware"
+      ],
+      "lengths": [
+        "Ultra-Thin Film: 8µm - 12µm"
+      ],
+      "threadPitch": "No Thread Clearance Adjustment Required",
+      "tolerance": "ISO 965 Standard",
+      "tensileStrength": "Completely Hydrogen Embrittlement Free (No Acid Pickling)",
+      "hardness": "High Chemical & Solvent Resistance",
+      "finishes": [
+        "Silver Flake (Geomet 500) / Black Flake (Geomet 720)"
+      ],
+      "certifications": [
+        "RoHS / REACH Compliant",
+        "1,500h Salt Spray Verified"
+      ],
+      "minOrderQuantity": 200,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Automotive Batch Line",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBB9GNqfi3vimjS5ZBG-Yrn00tbp_avnDhxEbMpAfMNirzpKGUIkX0lqYaU1-AJGLefCn-ZKFvrsBlAkoCuQQdgqRTxQmsmBDyNrrVZB5REKtqR89oGdy5QcSGI4LZOewOu3r-yD70TW2rw5M4TAqd7M1ubVJNXboM3_680htHiGvDIczqwwtRTZEs7K3OMkR9KSe-ZxTWcrK5XDiDpOcsZNCDuBN0bOJgmTsNVU5ii7026IJiWtfWMEQ",
+      "description": "Water-based dip-spin coating consisting of passivated zinc and aluminum flakes. Zero risk of hydrogen embrittlement makes it the standard for Grade 10.9 & 12.9 hardware.",
+      "features": [
+        "Totally hydrogen embrittlement free — essential for high tensile 10.9 and 12.9 fasteners",
+        "Ultra-thin 8-12 micron layer fits standard thread pitch tolerances without interference",
+        "Superior heat resistance up to 300°C without loss of barrier properties"
+      ]
+    },
+    {
+      "id": "foif-ct-zinc-nickel",
+      "sku": "FOIF-CT-ZNNI",
+      "name": "High-Corrosion Zinc-Nickel (12-15% Ni) Alloy Electroplating",
+      "category": "coatings-finishes",
+      "categoryName": "Coatings & Surface Treatments",
+      "categoryCode": "CAT-07",
+      "standards": [
+        "ASTM B841",
+        "DIN 50979",
+        "ISO 19598"
+      ],
+      "materials": [
+        "Electrodeposited Zinc-Nickel Alloy (12-15% Nickel Content)"
+      ],
+      "diameters": [
+        "M4 through M30 Precision Fasteners"
+      ],
+      "lengths": [
+        "Deposit Thickness: 8µm - 15µm"
+      ],
+      "threadPitch": "Standard Metric Pitch Fit",
+      "tolerance": "ISO 965 Class 6g",
+      "tensileStrength": "De-embrittlement baked at 200°C within 4 hours",
+      "hardness": "400 - 500 HV Harder than standard zinc",
+      "finishes": [
+        "Transparent Clear / Black Passivate with Nanoparticle Topcoat"
+      ],
+      "certifications": [
+        "ASTM B117 1500h SST",
+        "RoHS Compliant"
+      ],
+      "minOrderQuantity": 500,
+      "unit": "pcs",
+      "pricingType": "quotation",
+      "indicativePricePer100": null,
+      "inStockStatus": "Automated Plating Barrels",
+      "featured": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBB9GNqfi3vimjS5ZBG-Yrn00tbp_avnDhxEbMpAfMNirzpKGUIkX0lqYaU1-AJGLefCn-ZKFvrsBlAkoCuQQdgqRTxQmsmBDyNrrVZB5REKtqR89oGdy5QcSGI4LZOewOu3r-yD70TW2rw5M4TAqd7M1ubVJNXboM3_680htHiGvDIczqwwtRTZEs7K3OMkR9KSe-ZxTWcrK5XDiDpOcsZNCDuBN0bOJgmTsNVU5ii7026IJiWtfWMEQ",
+      "description": "Premium electroplated alloy barrier delivering exceptional corrosion and thermal protection for automotive, defense, and high-vibration chassis fasteners.",
+      "features": [
+        "1,500+ hours to red rust in salt spray with half the coating thickness of galvanizing",
+        "High surface hardness (450 HV) prevents mechanical abrasion during pneumatic assembly",
+        "Controlled baking cycle eliminates hydrogen embrittlement risks"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-01",
+      "code": "CAT-01",
+      "title": "Bolts & Socket Screws",
+      "slug": "bolts",
+      "description": "Hex, Socket Head Allen, CSK, Carriage, Stud & Flange structural bolts for critical load assemblies.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHddiAN4v4IL7V_H0kS18hGicmBgGMJY7Kdjwe3ngBvB0rbPj2r7iQjU1FnHsXSgDHpJFNz7iO1y786pG0kNL0LqYKpU0ZPLby8SsxXpI_0tZW273Qhbiks8OiEgVmnzm3kJg69AieJGvz3aFdFC33QJ1xcYvfEADz5HtChD4XbjEA7VaVJJWs1dh8vV2Q360gEr89YREk1f6Y7auP4Q1C8qk4Y6ryeG2Rnx2YHQYundk4QRwX0j8gw",
+      "alt": "Technical photography of heavy industrial structural hex bolts and socket head Allen screws with high grade metallic finish resting on blueprint drafting schematics.",
+      "badges": [
+        "SS304 / SS316",
+        "Grade 8.8 / 10.9 / 12.9",
+        "Unbrako / TVS"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cat-02",
+      "code": "CAT-02",
+      "title": "Self-Drilling Screws",
+      "slug": "self-drilling-screws",
+      "description": "Hex Head, Ruspert coated, cement sheet, countersunk sheet screws for steel framing and envelope architecture.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbSyUotfUimP58OK6ldl2qb6-vEocPNl0SMCkVFGtYIW0RGJ7UPeUadRF75N9kA_WM3bmQBB7KItf5h7wltaH_E_dnYmvO18wKKsetaILEw1AMIQ4GNKgpg8DmkdLZ87GjABcdUjvBhRoqy5_iPt5hDI9krE_tLP6B6CRPPnFZW3rSZuy7GWvUOO1ua7jr24JmTq3Iujm5DxBxq0Y9qoffitqC8LSav4y258jcbYwHAcnOHt45EE4rew",
+      "alt": "Macro studio composition of high-performance self-drilling screws with Ruspert corrosion resistant coating and hardened drill points.",
+      "badges": [
+        "Corroshield",
+        "Patta",
+        "Bi-Metal SS304"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cat-03",
+      "code": "CAT-03",
+      "title": "Manufacturing Bolts",
+      "slug": "manufacturing-bolts",
+      "description": "Custom J, L, & I-Type heavy civil foundation bolts, plate-welded anchors, and bespoke structural studs.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA2V3Vk5PTh1UhAYbLjnZLcdTQHpPeLwVQHCnrx74KSX0Bj14utRxcWuREUX8NBGHaEsvq_KPM7gy_NlW4wtUH_KR0a03n73LRavdW60ruqIXN9FJzc18U8K7xrDcvKousAe9GJGF3YMtu6KjrL0gdrNqY0YxX4gLH_k-NsqHpYM_P8wqDyTJROuSEffHespu-_dhpd1e7OX9dmmx4afu1MZoSInPb-2KwT3tANLfY3g_m7x1j5VhBXLQ",
+      "alt": "Heavy industrial forged foundation anchor bolts of J-Type and L-Type configuration with clean thread profile.",
+      "badges": [
+        "IS 2062 / EN8",
+        "M12 to M100+",
+        "Hot Dip Galv"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cat-04",
+      "code": "CAT-04",
+      "title": "Anchor Fasteners",
+      "slug": "anchor-fasteners",
+      "description": "Chemical stud anchors, through-bolts, shield, nylon frame, and drop-in anchors for seismic grade installations.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDs_Z_qf1lN8YDNMIX8iqeZVJwilerVGUkalCmKj2Cvd1YjZujCShCE6JIDK-hOs99uCLS1H9v9i9_jV3LoZwKosJseLyHFqGNBQO5ihALdkWU02QUJF8z0D6ZvXPKfdl4x_pLnKKre_pYv6heONsiBn50RkmAHHiaDDbUE9bNTbJENLFd5qqCw86yl_PBf6dwk1gsHicAR2Xq1vaw15mjthnXD6BChP_xzEhvwE-e2rpdjWuSQc9hkxw",
+      "alt": "Heavy duty chemical anchor capsules, threaded rods, and mechanical wedge anchors laid out with precision tools.",
+      "badges": [
+        "Hilti / Fischer",
+        "ETA Option 1",
+        "Grade A4-70"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cat-05",
+      "code": "CAT-05",
+      "title": "Abrasives & Cutting",
+      "slug": "abrasives",
+      "description": "Precision cut-off wheels, grinding discs, zirconium flap wheels, TCT blades, and welding consumables.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2MpCfLg-YsuzEPOSX7_BXieZ5YpheCtqCYfZbmXRSxa_vW80n0GeJRiz66wvjbhsAbhEONBfHLFNPFNEmroul7MDqfFxOmEi0_TOjDuftL7qsQ-z7EH7RRlFolSTJZ3tESmKubdaPoXFXZpZ1_XMqH3kwim1EXiFpHTg8xffpp5Yww3oGTb7u9byLNl2FV74u7WocKfCjkv4QUc5egEZL18ER64ud6B_tbwWD3dyq3zMIsmpCIUoLrQ",
+      "alt": "High precision industrial cutting and grinding abrasive discs, flap wheels, and tungsten carbide tipped saw blades.",
+      "badges": [
+        "EN 12413 Certified",
+        "80 m/s Rated",
+        "Zirconia / Ceramic"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cat-06",
+      "code": "CAT-06",
+      "title": "Specialty Fasteners",
+      "slug": "specialty-fasteners",
+      "description": "Weld studs, shear connectors, threaded rivet nuts, pop rivets, internal/external circlips, and ground dowel pins.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjhegVQEkc1hlET8yIJvoXEgc3x71WskEc0shTrK1gcjPWwhYOA61GERbMtfEAWpKhRulVpvNM_awcuOEv5Xj51uy0SfHXNxR3WQ9WurfxoNB6UCuA1l1jQCv4kGIAq5J4k9eFjfkuiHUGJNslMf5gw-Ar5vmb7Gcj7_i8vaK1ah6SEl270MNMPgOJTSMuzWtKuyKpFkbUh6PAzuCsMWN_j0MvHw8ULN-0uqrJ-7qV_8xXvtzCvrTKLw",
+      "alt": "Exotic alloy shear connectors, threaded weld studs, precision rivet nuts, circlips, and hardened dowel pins.",
+      "badges": [
+        "Titanium / Inconel",
+        "Monel / Duplex",
+        "DIN 7979 / 471"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cat-07",
+      "code": "CAT-07",
+      "title": "Coatings & Surface Finishes",
+      "slug": "fastener-coatings-surface-finishes",
+      "description": "Advanced chemical surface treatments engineered for extreme subsea, chemical processing, and coastal atmospheric resistance.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBB9GNqfi3vimjS5ZBG-Yrn00tbp_avnDhxEbMpAfMNirzpKGUIkX0lqYaU1-AJGLefCn-ZKFvrsBlAkoCuQQdgqRTxQmsmBDyNrrVZB5REKtqR89oGdy5QcSGI4LZOewOu3r-yD70TW2rw5M4TAqd7M1ubVJNXboM3_680htHiGvDIczqwwtRTZEs7K3OMkR9KSe-ZxTWcrK5XDiDpOcsZNCDuBN0bOJgmTsNVU5ii7026IJiWtfWMEQ",
+      "alt": "Technical comparison display of fastener coating samples including hot-dip galvanized silver, PTFE Xylan deep blue, yellow zinc dichromate, and Geomet anti-corrosion barrier coatings.",
+      "badges": [
+        "Hot Dip Galv (ASTM A153)",
+        "PTFE / Xylan 1014/1424",
+        "Geomet 500 / 720",
+        "Zinc-Nickel Electroplate"
+      ],
+      "featured": true,
+      "wide": true
+    }
+  ],
+  "quotations": [
+    {
+      "id": "rfq-1792400353014",
+      "rfqNumber": "FOIF-RFQ-2026-4082",
+      "status": "PENDING_REVIEW",
+      "createdAt": 1792400353013,
+      "issuedAt": null,
+      "expiresAt": null,
+      "items": [
+        {
+          "productId": "foif-din933-hex-bolt",
+          "name": "Hex Head Structural Bolt (Full Thread)",
+          "specs": "M16 x 80mm | Grade 10.9",
+          "quantity": 2500,
+          "unit": "pcs",
+          "unitPrice": null,
+          "subtotal": null
+        }
+      ],
+      "customerId": null,
+      "customerName": "Test Engineer",
+      "companyName": "BHEL Power Systems",
+      "email": "testing@bhel.in",
+      "phone": "+91 99887 76655",
+      "destination": "Ennore Thermal Power Plant",
+      "customerNotes": "",
+      "adminNotes": "",
+      "totalAmount": null,
+      "currency": "INR",
+      "attachmentName": null,
+      "history": [
+        {
+          "timestamp": 1792400353013,
+          "action": "RFQ Submitted: FOIF-RFQ-2026-4082 with 1 line items"
+        }
+      ]
+    },
+    {
+      "id": "rfq-1001",
+      "rfqNumber": "FOIF-RFQ-2025-1001",
+      "customerId": "usr-customer-1",
+      "customerName": "Rajesh Sharma",
+      "companyName": "Larsen & Toubro Heavy Infrastructure",
+      "email": "procurement@larsentoubro.com",
+      "phone": "+91 98401 23456",
+      "destination": "Chennai Port Pier 4 Expansion Site",
+      "status": "EXPIRED",
+      "items": [
+        {
+          "productId": "foif-din933-hex-bolt",
+          "name": "Hex Head Structural Bolt (Full Thread)",
+          "specs": "M16 x 80mm | Grade 10.9 HT Alloy Steel | Hot Dip Galv",
+          "quantity": 5000,
+          "unit": "pcs",
+          "unitPrice": 42.5,
+          "subtotal": 212500
+        },
+        {
+          "productId": "foif-chem-anchor-stud",
+          "name": "Chemical Injection Anchor Stud Rod with Capsule",
+          "specs": "M20 x 260mm | Grade A4-70 (SS316)",
+          "quantity": 1200,
+          "unit": "sets",
+          "unitPrice": 285,
+          "subtotal": 342000
+        }
+      ],
+      "totalAmount": 554500,
+      "currency": "INR",
+      "issuedAt": 1792254732679,
+      "expiresAt": 1792341132679,
+      "adminNotes": "MTR 3.1 certificates included for both lots. Batch heat number HT-9021. Dispatch within 48h upon PO confirmation.",
+      "customerNotes": "Critical civil pier construction timeline.",
+      "attachmentName": "LNT_Foundation_Pier_Drawing_Rev3.pdf",
+      "history": [
+        {
+          "timestamp": 1792251132679,
+          "action": "RFQ Submitted by Client"
+        },
+        {
+          "timestamp": 1792254732679,
+          "action": "Quotation Prepared & Issued by FOIF Admin with 24h Expiry Window"
+        },
+        {
+          "timestamp": 1792341132679,
+          "action": "Quotation auto-expired after 24 hours"
+        }
+      ]
+    },
+    {
+      "id": "rfq-1002",
+      "rfqNumber": "FOIF-RFQ-2025-1002",
+      "customerId": "usr-customer-1",
+      "customerName": "Rajesh Sharma",
+      "companyName": "Larsen & Toubro Heavy Infrastructure",
+      "email": "procurement@larsentoubro.com",
+      "phone": "+91 98401 23456",
+      "destination": "Kudankulam Nuclear Power Area Substation",
+      "status": "PENDING_REVIEW",
+      "items": [
+        {
+          "productId": "foif-spec-titanium-fastener",
+          "name": "Titanium Grade 5 (Ti-6Al-4V) Hex & Socket Fasteners",
+          "specs": "M12 x 50mm | Ti-6Al-4V | Non-Magnetic",
+          "quantity": 450,
+          "unit": "pcs",
+          "unitPrice": null,
+          "subtotal": null
+        }
+      ],
+      "totalAmount": null,
+      "currency": "INR",
+      "issuedAt": null,
+      "expiresAt": null,
+      "adminNotes": "",
+      "customerNotes": "Spectrometry composition cert required per ASTM B348.",
+      "attachmentName": "Titanium_Substation_Spec.dxf",
+      "history": [
+        {
+          "timestamp": 1792258332679,
+          "action": "RFQ Submitted by Client - Awaiting Engineering Review"
+        }
+      ]
+    },
+    {
+      "id": "rfq-1003",
+      "rfqNumber": "FOIF-RFQ-2025-1003",
+      "customerId": "usr-customer-1",
+      "customerName": "Rajesh Sharma",
+      "companyName": "Larsen & Toubro Heavy Infrastructure",
+      "email": "procurement@larsentoubro.com",
+      "phone": "+91 98401 23456",
+      "destination": "Tirunelveli Rail Yard Shed",
+      "status": "EXPIRED",
+      "items": [
+        {
+          "productId": "foif-sd-hex-ruspert",
+          "name": "Hex Washer Head Self-Drilling Screw with EPDM",
+          "specs": "#12-14 x 68mm | Class 4 Ruspert",
+          "quantity": 35000,
+          "unit": "pcs",
+          "unitPrice": 8.2,
+          "subtotal": 287000
+        }
+      ],
+      "totalAmount": 287000,
+      "currency": "INR",
+      "issuedAt": 1792146732679,
+      "expiresAt": 1792233132679,
+      "adminNotes": "Quotation lapsed per 24h metal commodity index policy.",
+      "customerNotes": "",
+      "attachmentName": null,
+      "history": [
+        {
+          "timestamp": 1792143132679,
+          "action": "RFQ Submitted"
+        },
+        {
+          "timestamp": 1792146732679,
+          "action": "Quotation Issued"
+        },
+        {
+          "timestamp": 1792233132679,
+          "action": "Expired (24-Hour Expiry Window Elapsed)"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-5001",
+      "orderNumber": "FOIF-ORD-2025-5001",
+      "rfqReference": "FOIF-RFQ-2025-0994",
+      "customerId": "usr-customer-1",
+      "customerName": "Rajesh Sharma",
+      "companyName": "Larsen & Toubro Heavy Infrastructure",
+      "deliveryAddress": "Chennai Port Pier 4 Expansion Site, Chennai 600001",
+      "poNumber": "LNT-PO-2025-OCT-8812",
+      "status": "CONFIRMED_DISPATCHING",
+      "items": [
+        {
+          "productId": "foif-din933-hex-bolt",
+          "name": "Hex Head Structural Bolt DIN 933",
+          "specs": "M24 x 100mm | Grade 10.9 | HDG",
+          "quantity": 2500,
+          "unit": "pcs",
+          "unitPrice": 94,
+          "subtotal": 235000
+        }
+      ],
+      "totalAmount": 235000,
+      "paymentTerms": "Commercial Invoice (30 Days Net on MTR Acceptance)",
+      "mtrDossierNumber": "MTR-2025-BATCH-4412",
+      "dispatchDate": "2026-10-18",
+      "carrier": "FOIF Logistics Dedicated Freight - Tirunelveli Hub",
+      "createdAt": 1792175532679
+    }
+  ],
+  "carts": {
+    "guest-1792263350135-7t2e01": [
+      {
+        "id": "foif-din933-hex-bolt-1792352309157",
+        "productId": "foif-din933-hex-bolt",
+        "name": "Hex Head Structural Bolt (Full Thread)",
+        "specs": "M6 | 16mm | Grade 8.8 | Plain Black Oxide",
+        "quantity": 500,
+        "unit": "pcs",
+        "unitPrice": null,
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHddiAN4v4IL7V_H0kS18hGicmBgGMJY7Kdjwe3ngBvB0rbPj2r7iQjU1FnHsXSgDHpJFNz7iO1y786pG0kNL0LqYKpU0ZPLby8SsxXpI_0tZW273Qhbiks8OiEgVmnzm3kJg69AieJGvz3aFdFC33QJ1xcYvfEADz5HtChD4XbjEA7VaVJJWs1dh8vV2Q360gEr89YREk1f6Y7auP4Q1C8qk4Y6ryeG2Rnx2YHQYundk4QRwX0j8gw"
+      }
+    ],
+    "guest-1792350963524-oz9qpt": [
+      {
+        "id": "foif-sd-hex-ruspert",
+        "productId": "foif-sd-hex-ruspert",
+        "name": "Hex Washer Head Self-Drilling Screw with EPDM",
+        "specs": "#12-14 x 68mm | Class 4 Ruspert",
+        "quantity": 25000,
+        "unit": "pcs",
+        "unitPrice": null,
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbSyUotfUimP58OK6ldl2qb6-vEocPNl0SMCkVFGtYIW0RGJ7UPeUadRF75N9kA_WM3bmQBB7KItf5h7wltaH_E_dnYmvO18wKKsetaILEw1AMIQ4GNKgpg8DmkdLZ87GjABcdUjvBhRoqy5_iPt5hDI9krE_tLP6B6CRPPnFZW3rSZuy7GWvUOO1ua7jr24JmTq3Iujm5DxBxq0Y9qoffitqC8LSav4y258jcbYwHAcnOHt45EE4rew"
+      },
+      {
+        "id": "foif-chem-anchor-stud",
+        "productId": "foif-chem-anchor-stud",
+        "name": "Chemical Injection Anchor Stud Rod with Capsule",
+        "specs": "M20 x 260mm | Grade A4-70 (SS316)",
+        "quantity": 1200,
+        "unit": "sets",
+        "unitPrice": null,
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDs_Z_qf1lN8YDNMIX8iqeZVJwilerVGUkalCmKj2Cvd1YjZujCShCE6JIDK-hOs99uCLS1H9v9i9_jV3LoZwKosJseLyHFqGNBQO5ihALdkWU02QUJF8z0D6ZvXPKfdl4x_pLnKKre_pYv6heONsiBn50RkmAHHiaDDbUE9bNTbJENLFd5qqCw86yl_PBf6dwk1gsHicAR2Xq1vaw15mjthnXD6BChP_xzEhvwE-e2rpdjWuSQc9hkxw"
+      }
+    ],
+    "guest-1792350963717-f43bak": [],
+    "usr-admin-1": [
+      {
+        "id": "foif-din933-hex-bolt-1792352309157",
+        "productId": "foif-din933-hex-bolt",
+        "name": "Hex Head Structural Bolt (Full Thread)",
+        "specs": "M6 | 16mm | Grade 8.8 | Plain Black Oxide",
+        "quantity": 1000,
+        "unit": "pcs",
+        "unitPrice": null,
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpHddiAN4v4IL7V_H0kS18hGicmBgGMJY7Kdjwe3ngBvB0rbPj2r7iQjU1FnHsXSgDHpJFNz7iO1y786pG0kNL0LqYKpU0ZPLby8SsxXpI_0tZW273Qhbiks8OiEgVmnzm3kJg69AieJGvz3aFdFC33QJ1xcYvfEADz5HtChD4XbjEA7VaVJJWs1dh8vV2Q360gEr89YREk1f6Y7auP4Q1C8qk4Y6ryeG2Rnx2YHQYundk4QRwX0j8gw"
+      }
+    ]
+  },
+  "wishlists": {},
+  "auditLogs": [
+    {
+      "id": "aud-1792400353014",
+      "timestamp": 1792400353013,
+      "actor": "testing@bhel.in",
+      "event": "New RFQ submitted: FOIF-RFQ-2026-4082"
+    },
+    {
+      "id": "aud-1",
+      "timestamp": 1792254732679,
+      "actor": "admin@foifind.com",
+      "event": "Issued Quotation FOIF-RFQ-2025-1001 with 24h validity"
+    }
+  ]
+}
